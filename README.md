@@ -65,7 +65,9 @@ jupyter notebook Project.ipynb
 ```  
 
 ## 👥 Contributors  
-- **Your Name** - [GitHub Profile](https://github.com/yourusername)  
+- **Maor ZLk** - [GitHub Profile](https://github.com/MaorZLk)
+- **Yuval Komar** - [[GitHub Profile](https://github.com/yourusername)](https://github.com/yuvalkomar)  
+- 
 - **Other Contributors**  
 
 ## 📜 References  
