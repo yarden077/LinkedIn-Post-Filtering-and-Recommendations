@@ -12,10 +12,6 @@ LinkedIn feeds can become cluttered with diverse content, from job postings and 
 - **Reddit Data**: Scraped 19,925 posts using Selenium, cleaned to 8,726 posts from 11 subreddits (e.g., AI, Career Advice, Job Posting).  
 - **Integration**: We linked LinkedIn posts with the most similar Reddit posts using cosine similarity, leveraging subreddit topics for classification.  
 
-## 🔍 Data Processing & Analysis  
-- **Feature Selection**: Focused on LinkedIn post titles and bodies for classification; user profiles (education, certifications, etc.) for recommendations.  
-- **Visualizations**: Analyzed word frequencies in LinkedIn posts and created a word cloud from company "About" sections to guide subreddit selection.  
-
 ## 🤖 AI Methodologies  
 1. **Reddit Post Tagging**: Used subreddit categories, pre-existing post labels, and a word detection dictionary (expanded with ChatGPT).  
 2. **Embedding & Similarity Matching**: Applied `UniversalSentenceEncoder` to embed posts and calculated cosine similarity to assign labels.  
