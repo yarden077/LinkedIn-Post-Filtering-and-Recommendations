@@ -1,5 +1,5 @@
 # LinkedIn Post Filtering and Recommendation System  
-![Poster]()
+![Poster](poster.png)
 
 ## 📌 Project Overview  
 This project introduces an AI-driven filtering feature for LinkedIn posts, classifying them into three distinct labels. Users can personalize their feeds by selecting preferred topics while excluding unwanted content. Additionally, our system analyzes LinkedIn user profiles to suggest the most relevant posts based on their professional interests.  
