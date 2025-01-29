@@ -18,45 +18,21 @@ LinkedIn feeds can become cluttered with diverse content, from job postings and 
 3. **Refining Labels**: Used `DeBERTa-Zero-Shot-Classification` to refine post labels, selecting the most relevant three.  
 4. **User-Post Recommendations**: Created user embeddings from profile data and matched them with post embeddings to recommend the most relevant content.  
 
-## 📈 Evaluation & Results  
-- Lacking pre-labeled data, we manually evaluated results and compared them with ChatGPT-generated labels, concluding our method performed better.  
-- Example case: A senior developer received relevant tags like "career_advice" but also less useful ones like "job_posting."  
-- Analysis of assigned labels confirmed that job-related and discussion-based tags were most prevalent.  
-
-## 🚧 Challenges & Limitations  
-- **LLMs Performance Issues**: Models like LLaMA and Spark NLP underperformed, leading us to pivot to Reddit-based categorization.  
-- **Lack of Explicit User Engagement Data**: Used cosine similarity to bridge the gap between user profiles and post categories.  
-
-## ✅ Conclusion  
-Our system successfully classifies LinkedIn posts and provides relevant recommendations by integrating LinkedIn and Reddit data. Overcoming challenges with LLMs and data limitations, we demonstrated how diverse data sources and AI techniques can enhance content filtering and recommendation.  
-
----  
-
 ## 📂 Project Structure  
 ```plaintext
 📦 LinkedIn-Post-Filtering  
-├── 📂 data/                     # Datasets and processed files  
-├── 📂 models/                   # Trained models and embeddings  
-├── 📂 notebooks/                # Jupyter Notebooks for data analysis  
-├── 📂 scripts/                  # Python scripts for preprocessing & model training  
+├── 📂 scripts/                  # Python scripts for data scraping
 ├── 📜 Project.ipynb             # Main Jupyter Notebook  
-├── 📜 requirements.txt          # Dependencies list  
 └── 📜 README.md                 # Project documentation  
 ```  
 
 ## 🚀 Installation & Usage  
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/LinkedIn-Post-Filtering.git  
+git clone https://github.com/yarden077/LinkedIn-Post-Filtering.git  
 cd LinkedIn-Post-Filtering  
-```  
-
-### 2️⃣ Install Dependencies  
-```bash
-pip install -r requirements.txt  
-```  
-
-### 3️⃣ Run the Jupyter Notebook  
+```
+### 2️⃣ Run the Jupyter Notebook  
 ```bash
 jupyter notebook Project.ipynb  
 ```  
@@ -64,9 +40,8 @@ jupyter notebook Project.ipynb
 ## 👥 Contributors  
 - **Maor ZLk** - [[GitHub Profile](https://github.com/MaorZLk)]
 - **Yuval Komar** - [[GitHub Profile](https://github.com/yuvalkomar)]
-- 
-- **Other Contributors**  
-
+- **Yarden Nahum** - [[GitHub Profile](https://github.com/yarden077)]
+  
 ## 📜 References  
 - [ChatGPT](https://chatgpt.com)  
 - [LinkedIn](https://www.linkedin.com/)  
