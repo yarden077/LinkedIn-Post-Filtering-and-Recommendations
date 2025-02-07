@@ -43,8 +43,9 @@ jupyter notebook Project.ipynb
 - **Yarden Nahum** - [[GitHub Profile](https://github.com/yarden077)]
   
 ## 📜 References  
-- [ChatGPT](https://chatgpt.com)  
+
 - [LinkedIn](https://www.linkedin.com/)  
-- [Spark NLP](https://sparknlp.org/2020/04/17/tfhub_use.html)  
+- [Spark NLP](https://sparknlp.org/2020/04/17/tfhub_use.html)
+- [ChatGPT](https://chatgpt.com)   
 - [Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity)  
 - [Hugging Face DeBERTa](https://huggingface.co/DeBERTa-Zero-Shot-Classification)  
