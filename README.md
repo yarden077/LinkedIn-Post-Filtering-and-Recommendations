@@ -21,7 +21,7 @@ LinkedIn feeds can become cluttered with diverse content, from job postings and 
 ## 📂 Project Structure  
 ```plaintext
 📦 LinkedIn-Post-Filtering  
-├── 📂 scripts/                  # Python scripts for data scraping
+├── 📂 WebScraping/                  # Python scripts for data scraping
 ├── 📜 Project.ipynb             # Main Jupyter Notebook  
 └── 📜 README.md                 # Project documentation  
 ```  
